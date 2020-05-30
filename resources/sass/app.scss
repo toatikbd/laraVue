@@ -3,7 +3,7 @@
 
 // Variables
 @import 'variables';
-// $fa-font-path: "../webfonts";
+$fa-font-path: "../webfonts";
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import '~admin-lte/dist/css/adminlte.css';
@@ -11,3 +11,9 @@
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~@fortawesome/fontawesome-free/scss/regular.scss";
+
+
+.router-link-active{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff!important;
+}
